@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Wonder Whim-Tim</title>
+	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+	<link href="/static/style.css" rel="stylesheet">
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/static/sprites.js"></script>
+	<script src="/static/game.js"></script>
+</head>
+<body>
+	<div id="chooser">
+		<table class="chooser" align="center">
+			<tbody>
+				<tr>
+					<td style="font-size:100px" colspan="2">Wonder Whim-Tim</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Choose your character!</p>
+						<button class="char">Eason</button>
+						<button class="char">Ricky</button>
+						<button class="char">Tim</button>
+						<button class="char">Peter</button>
+					</td>
+					<td style="width: 60%;">
+						<p id="name">Stats</p>
+						<table id="preview">
+							<tbody>
+								<tr>
+									<td>
+										<img id="preview_img" />
+									</td>
+									<td id="stats">
+									
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><button id="connect">Play</button></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<canvas id="canvas"></canvas>
+	<script src="/static/chooser.js"></script>
+</body>
+</html>

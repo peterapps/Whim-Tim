@@ -1,0 +1,76 @@
+@font-face { font-family: Bangers; src: url(''); } 
+body {
+	background-color: black;
+	font-family: Bangers;
+	font-size: 32px;
+	color: white;
+	margin: 0;
+	overflow: hidden;
+}
+button {
+	font-family: Bangers;
+}
+table.chooser {
+	height: 100%;
+	width: 100%;
+	border-collapse: collapse;
+}
+table.chooser, table.chooser > tbody > tr, table.chooser > tbody > tr > td{
+	border: 1px solid white;
+	text-align: center;
+	font-size: 32px;
+}
+canvas {
+	width: auto;
+	height: 100%;
+	background-color: white;
+	background-image: url("/static/background.png");
+	display: none;
+}
+button.char {
+	display: block;
+	background: #222;
+	border: 1px solid white;
+	color: white;
+	font-size: 32px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 100%;
+	border-radius: 15px;
+}
+button.char:hover {
+	background: #444;
+}
+#preview {
+	width: 100%;
+	text-align: center;
+}
+.barDiv {
+	width: 100%;
+	background: #333;
+}
+.bar {
+	width: 1%;
+	height: 10px;
+	background: #4CAF50;
+}
+#stats {
+	width: 100%;
+	padding: 0;
+}
+#connect {
+	display: none;
+	width: 50%;
+	font-size: 32px;
+	background: #800000;
+	color: white;
+	border-radius: 15px
+}
+#connect:hover {
+	background: #cc0000;
+}
+
+button.char.active {
+	background: #800000;
+	color: white;
+}

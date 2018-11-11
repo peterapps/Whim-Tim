@@ -1,0 +1,5 @@
+{
+	"Peter": {"name": "Peter", "strength": 10, "jumps": 2, "jumpStrength": 5, "speed": 5, "accel": 1, "defense": 0.1},
+	"Eason": {"name": "Eason", "strength": 5, "jumps": 3, "jumpStrength": 8, "speed": 8, "accel": 2, "defense": 0.1},
+	"Tim": {"name": "Tim", "strength": 10, "jumps": 2, "jumpStrength": 5, "speed": 3, "accel": 0.8, "defense": 0.2}
+}
